@@ -1,0 +1,64 @@
+.nav {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 12vh;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: darkgrey; */
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  text-align: center;
+}
+
+.six {
+  font-size: 1.6rem;
+  font-weight: 1000;
+}
+.connections {
+  font-size: 0.8rem;
+  font-weight: 650;
+  margin: -5px 10px;
+}
+.away {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: -10px;
+  opacity: 0.6;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.relationship {
+  font-size: 1.4rem;
+  font-weight: 600;
+  position: relative;
+  top: 25%;
+}
+
+.main {
+  position: relative;
+  display: flex;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+}
